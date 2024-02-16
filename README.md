@@ -57,7 +57,7 @@ Run on Cloud Run:
 [![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
 
 Sample Node w/ TypeScript
--------------------------
+------------------------
 
 Run Locally:
 1. [Install Node](https://nodejs.org/en/download/)
