@@ -34,7 +34,7 @@ npm install
 ```bash
 npm run dev
 ```
-
+1. Check it out: [http://localhost:8080](http://localhost:8080)
 
 ## Available scripts
 
@@ -45,3 +45,30 @@ npm run dev
 - `npm run lint:fix` — Fix autofixable ESLint problem.
 - `npm run format:all` — Format code using Prettier for all files.
 - `npm run format:check` — Check code format using prettier.
+
+## Run Locally with Buildpacks & Docker:
+```
+pack build --builder=gcr.io/buildpacks/builder autoclocking
+docker run -it -p8080:8080 sample-node-tsc autoclocking
+```
+
+Run on Cloud Run:
+
+[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
+
+Sample Node w/ TypeScript
+-------------------------
+
+Run Locally:
+1. [Install Node](https://nodejs.org/en/download/)
+1. Install Node modules
+    ```
+    npm install
+    ```
+1. Start the dev server:
+    ```
+    npm run dev
+    ```
+1
+
+
